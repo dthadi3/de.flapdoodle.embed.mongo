@@ -3,6 +3,8 @@ arch:
     - amd64
     - ppc64le
 
+dist: focal
+
 language: java
 install: true
 # To solve BufferOverflow on OpenJDK7 we setup short hostname (<64characters)
